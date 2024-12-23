@@ -5,8 +5,9 @@ import HomeTheStroy from "./home_the_story";
 import HomeMenu from "./home_menu";
 import HomeServices from "./home_services";
 import HomeOpinion from "./home_opinion";
-import HomeBlog from "./home_blog/index";
-import HomeReservation from "./home_reservation/index";
+import HomeBlog from "./home_blog";
+import HomeReservation from "./home_reservation";
+import AboutHero from "./about_hero/index";
 
 export {
   Header,
@@ -18,4 +19,5 @@ export {
   HomeOpinion,
   HomeBlog,
   HomeReservation,
+  AboutHero,
 };

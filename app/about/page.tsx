@@ -1,3 +1,9 @@
+import { AboutHero } from "@/components";
+
 export default function About() {
-  return <div>About</div>;
+  return (
+    <main className="">
+      <AboutHero />
+    </main>
+  );
 }
