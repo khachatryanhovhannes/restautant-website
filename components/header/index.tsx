@@ -29,7 +29,7 @@ export default function Header() {
               {nav.label}
             </Link>
           ))}
-          <button className="bg-[#ff9900] py-2 px-14 rounded-2xl">Login</button>
+          <button className="bg-[#ff9900] py-2 px-14 rounded-2xl">Contact</button>
         </nav>
         {/* Mobile Navbar */}
         <div className="lg:hidden flex items-center">
@@ -71,7 +71,7 @@ export default function Header() {
               </Link>
             ))}
             <button className="bg-[#ff9900] py-2 px-14 rounded-2xl mt-4">
-              Login
+              Contact
             </button>
           </nav>
         </div>

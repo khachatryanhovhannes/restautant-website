@@ -15,8 +15,4 @@ export const NAV_BAR = [
     label: "RESERVATION",
     href: "/reservation",
   },
-  {
-    label: "CONTACT",
-    href: "/contact-us",
-  },
 ];
