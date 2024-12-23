@@ -13,6 +13,7 @@ import AboutTeam from "./about_team/index";
 import AboutGalary from "./about_galary/index";
 import ContactForm from "./contact_form/index";
 import ReservationForm from "./reservation_form/index";
+import MenuFull from "./menu_full/index";
 
 export {
   Header,
@@ -30,4 +31,5 @@ export {
   AboutGalary,
   ContactForm,
   ReservationForm,
+  MenuFull,
 };
