@@ -18,19 +18,30 @@ function HomeWelcome() {
             Simply dummy text of the printing and typesetting industry. Lorem
             Ipsum has been the industry&apos;s standard dummy.
           </p>
-          <button className="text-white bg-black px-10 py-3 rounded-lg mt-8">
+          <button
+            className="text-white bg-black px-10 py-3 rounded-lg mt-8"
+            aria-label="View Menu"
+          >
             View Menu
           </button>
         </div>
         <div className="mt-5 md:mt-0">
-          <Image src={hero} alt="Image" width={561} height={653} />
+          <Image
+            src={hero}
+            alt="An image of the restaurant interior showcasing the welcoming atmosphere"
+            width={561}
+            height={653}
+          />
         </div>
       </section>
 
       {/* Info Section */}
       <section className="p-5 sm:p-7 md:px-20 flex flex-col md:flex-row justify-between md:items-center mt-10 space-y-8 md:space-y-0">
         <div className="flex gap-2 items-center">
-          <div className="bg-[#ff9900] rounded-full w-12 h-12 flex justify-center items-center text-[20px] md:text-[25px]">
+          <div
+            className="bg-[#ff9900] rounded-full w-12 h-12 flex justify-center items-center text-[20px] md:text-[25px]"
+            aria-hidden="true"
+          >
             <IoLocationOutline color="white" />
           </div>
           <div>
@@ -41,7 +52,10 @@ function HomeWelcome() {
           </div>
         </div>
         <div className="flex gap-2 items-center">
-          <div className="bg-[#ff9900] rounded-full w-12 h-12 flex justify-center items-center text-[20px] md:text-[25px]">
+          <div
+            className="bg-[#ff9900] rounded-full w-12 h-12 flex justify-center items-center text-[20px] md:text-[25px]"
+            aria-hidden="true"
+          >
             <LuClock10 color="white" />
           </div>
           <div>
@@ -52,7 +66,10 @@ function HomeWelcome() {
           </div>
         </div>
         <div className="flex gap-2 items-center">
-          <div className="bg-[#ff9900] rounded-full w-12 h-12 flex justify-center items-center text-[20px] md:text-[25px]">
+          <div
+            className="bg-[#ff9900] rounded-full w-12 h-12 flex justify-center items-center text-[20px] md:text-[25px]"
+            aria-hidden="true"
+          >
             <GoChecklist color="white" />
           </div>
           <div>
