@@ -57,7 +57,7 @@ export default function Footer() {
           </button>
         </div>
         <div className="text-center lg:text-right text-white">
-          <span className="text-[#ff9900]">Mon - Fri: </span>7:00am - 10:00pm{" "}
+          <span className="text-[#ff9900]">Mon - Fri: </span>7:00am - 10:00pm
           <br />
           <span className="text-[#ff9900]">Sat: </span>7:00am - 6:00pm <br />
           <span className="text-[#ff9900]">Sun: </span>8:00am - 6:00pm <br />
