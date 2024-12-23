@@ -1,4 +1,5 @@
 import {
+  AboutGalary,
   AboutHero,
   AboutProducts,
   AboutTeam,
@@ -12,6 +13,7 @@ export default function About() {
       <AboutProducts />
       <HomeTheStroy />
       <AboutTeam />
+      <AboutGalary />
     </main>
   );
 }

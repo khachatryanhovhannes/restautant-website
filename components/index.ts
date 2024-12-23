@@ -10,6 +10,7 @@ import HomeReservation from "./home_reservation";
 import AboutHero from "./about_hero/index";
 import AboutProducts from "./about_products/index";
 import AboutTeam from "./about_team/index";
+import AboutGalary from "./about_galary/index";
 
 export {
   Header,
@@ -24,4 +25,5 @@ export {
   AboutHero,
   AboutProducts,
   AboutTeam,
+  AboutGalary,
 };
