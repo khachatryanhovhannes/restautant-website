@@ -16,12 +16,24 @@ export default function AboutHero() {
           letters, as opposed to using &apos;Content here, content gfshere
           making look like readable English. Many desktop publishing packages.
         </p>
-        <button className="bg-[#ff9900] py-4 my-10 px-12 rounded-md font-semibold text-xl">
+        <button
+          className="bg-[#ff9900] py-4 my-10 px-12 rounded-md font-semibold text-xl"
+          aria-label="See more about our company"
+        >
           See More
         </button>
       </div>
       <div className="mt-5 md:mt-0">
-        <Image src={aboutHero} alt="Image" width={308} height={314} />
+        <Image
+          src={aboutHero}
+          alt="About Us - Quality and Tradition"
+          width={308}
+          height={314}
+          aria-labelledby="about-hero-description"
+        />
+        <span id="about-hero-description" className="sr-only">
+          An image representing quality and tradition at our company.
+        </span>
       </div>
     </section>
   );

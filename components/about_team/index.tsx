@@ -41,16 +41,22 @@ export default function AboutTeam() {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 py-7">
         {CHEFS.map((chef) => (
           <div key={chef.id} className="">
-            <div className="bg-[#ff9900] relative aspect-square">
+            <div
+              className="bg-[#ff9900] relative aspect-square"
+              aria-labelledby={`chef-${chef.id}-name`}
+            >
               <Image
                 src={chef.image}
-                alt={chef.name}
+                alt={`Image of ${chef.name}`}
                 fill
                 objectFit="cover"
               />
             </div>
             <div className="px-6 py-4 text-center">
-              <h3 className="text-lg tracking-wide font-semibold text-black">
+              <h3
+                id={`chef-${chef.id}-name`}
+                className="text-lg tracking-wide font-semibold text-black"
+              >
                 {chef.name}
               </h3>
               <p className="text-xs tracking-tight text-gray-500">

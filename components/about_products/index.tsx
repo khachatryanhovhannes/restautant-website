@@ -37,16 +37,26 @@ export default function AboutProducts() {
           <div
             key={product.id}
             className="flex flex-col gap-2 bg-[#FFF7EA] items-center text-center p-5"
+            role="article"
+            aria-labelledby={`product-title-${product.id}`}
           >
-            <div className="text-6xl sm:text-8xl text-[#f5bb64]">
+            <div
+              className="text-6xl sm:text-8xl text-[#f5bb64]"
+              aria-hidden="true"
+            >
               {product.icon}
             </div>
-            <h3 className="text-xl sm:text-2xl font-semibold">
+            <h3
+              id={`product-title-${product.id}`}
+              className="text-xl sm:text-2xl font-semibold"
+            >
               {product.title}
             </h3>
             <p className="text-sm sm:text-base">{product.description}</p>
             <div className="text-[#f5bb64] mt-2">
-              <Link href="/">See More</Link>
+              <Link href="/" aria-label={`Learn more about ${product.title}`}>
+                See More
+              </Link>
             </div>
           </div>
         ))}
