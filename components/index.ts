@@ -9,6 +9,7 @@ import HomeBlog from "./home_blog";
 import HomeReservation from "./home_reservation";
 import AboutHero from "./about_hero/index";
 import AboutProducts from "./about_products/index";
+import AboutTeam from "./about_team/index";
 
 export {
   Header,
@@ -22,4 +23,5 @@ export {
   HomeReservation,
   AboutHero,
   AboutProducts,
+  AboutTeam,
 };
