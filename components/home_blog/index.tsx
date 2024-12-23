@@ -17,24 +17,30 @@ export default function HomeBlog() {
       </p>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 my-7">
         {/* Blog 1 */}
-        <div>
+        <article>
           <Image
             src={blog_1}
-            alt="Blog 1"
+            alt="Blog Post 1: The Most Popular Delicious Food Of Mediterranean Cuisine"
             objectFit="contain"
             className="w-full"
           />
           <div className="px-8 py-10 border-b border-r border-l shadow-md mt-5">
-            <div className="flex gap-5">
+            <header className="flex gap-5">
               <span className="border-t border-b border-[#ff9900]">
                 RESTAURANTS
               </span>
               <span className="border-t border-b border-[#ff9900]">
                 FEB 22, 2022
               </span>
-            </div>
+            </header>
             <h4 className="text-lg font-semibold my-5">
-              The Most Popular Delicious Food Of Mediterranean Cuisine
+              <a
+                href="/blog/1"
+                className="text-black hover:text-[#ff9900]"
+                aria-label="Read The Most Popular Delicious Food Of Mediterranean Cuisine"
+              >
+                The Most Popular Delicious Food Of Mediterranean Cuisine
+              </a>
             </h4>
             <p className="text-gray-500">
               Capitalize on low-hanging fruit to identify a ballpark value added
@@ -42,27 +48,33 @@ export default function HomeBlog() {
               override the food quality.
             </p>
           </div>
-        </div>
+        </article>
 
         {/* Blog 2 */}
-        <div>
+        <article>
           <Image
             src={blog_2}
-            alt="Blog 2"
+            alt="Blog Post 2: The Most Popular Delicious Food Of Mediterranean Cuisine"
             objectFit="contain"
             className="w-full"
           />
           <div className="px-8 py-10 border-b border-r border-l shadow-md mt-5">
-            <div className="flex gap-5">
+            <header className="flex gap-5">
               <span className="border-t border-b border-[#ff9900]">
                 RESTAURANTS
               </span>
               <span className="border-t border-b border-[#ff9900]">
                 FEB 22, 2022
               </span>
-            </div>
+            </header>
             <h4 className="text-lg font-semibold my-5">
-              The Most Popular Delicious Food Of Mediterranean Cuisine
+              <a
+                href="/blog/2"
+                className="text-black hover:text-[#ff9900]"
+                aria-label="Read The Most Popular Delicious Food Of Mediterranean Cuisine"
+              >
+                The Most Popular Delicious Food Of Mediterranean Cuisine
+              </a>
             </h4>
             <p className="text-gray-500">
               Capitalize on low-hanging fruit to identify a ballpark value added
@@ -70,7 +82,7 @@ export default function HomeBlog() {
               override the food quality.
             </p>
           </div>
-        </div>
+        </article>
       </div>
     </section>
   );

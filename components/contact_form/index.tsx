@@ -10,40 +10,73 @@ export default function ContactForm() {
           Send Valuable Feedback To Us
         </h2>
 
-        <form className="mt-8 space-y-6">
+        <form className="mt-8 space-y-6" aria-labelledby="contact-form">
           {/* Name and Email */}
           <div className="flex flex-col sm:flex-row gap-6">
-            <input
-              type="text"
-              placeholder="Name"
-              className="p-4 outline-none placeholder-gray-600 caret-black border-2 text-black bg-transparent rounded-lg w-full"
-            />
-            <input
-              type="email"
-              placeholder="Email"
-              className="p-4 outline-none placeholder-gray-600 caret-black border-2 text-black bg-transparent rounded-lg w-full"
-            />
+            <div className="relative w-full">
+              <label htmlFor="name" className="sr-only">
+                Name
+              </label>
+              <input
+                type="text"
+                id="name"
+                placeholder="Name"
+                className="p-4 outline-none placeholder-gray-600 caret-black border-2 text-black bg-transparent rounded-lg w-full"
+                required
+              />
+            </div>
+            <div className="relative w-full">
+              <label htmlFor="email" className="sr-only">
+                Email
+              </label>
+              <input
+                type="email"
+                id="email"
+                placeholder="Email"
+                className="p-4 outline-none placeholder-gray-600 caret-black border-2 text-black bg-transparent rounded-lg w-full"
+                required
+              />
+            </div>
           </div>
 
           {/* Subject and Phone */}
           <div className="flex flex-col sm:flex-row gap-6">
-            <input
-              type="text"
-              placeholder="Subject"
-              className="p-4 outline-none placeholder-gray-600 caret-black border-2 text-black bg-transparent rounded-lg w-full"
-            />
-            <input
-              type="tel"
-              placeholder="Phone"
-              className="p-4 outline-none placeholder-gray-600 caret-black border-2 text-black bg-transparent rounded-lg w-full"
-            />
+            <div className="relative w-full">
+              <label htmlFor="subject" className="sr-only">
+                Subject
+              </label>
+              <input
+                type="text"
+                id="subject"
+                placeholder="Subject"
+                className="p-4 outline-none placeholder-gray-600 caret-black border-2 text-black bg-transparent rounded-lg w-full"
+                required
+              />
+            </div>
+            <div className="relative w-full">
+              <label htmlFor="phone" className="sr-only">
+                Phone
+              </label>
+              <input
+                type="tel"
+                id="phone"
+                placeholder="Phone"
+                className="p-4 outline-none placeholder-gray-600 caret-black border-2 text-black bg-transparent rounded-lg w-full"
+                required
+              />
+            </div>
           </div>
 
           {/* Message */}
-          <div>
+          <div className="relative">
+            <label htmlFor="message" className="sr-only">
+              Message
+            </label>
             <textarea
+              id="message"
               className="p-4 outline-none placeholder-gray-600 caret-black border-2 text-black bg-transparent rounded-lg w-full"
               placeholder="Message"
+              required
             ></textarea>
           </div>
 
@@ -51,6 +84,7 @@ export default function ContactForm() {
           <button
             type="submit"
             className="bg-[#ff9900] hover:bg-[#ff8800] transition-all py-3 px-8 rounded-md font-semibold text-lg text-black mx-auto block"
+            aria-label="Send Message"
           >
             Send Message
           </button>
