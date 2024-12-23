@@ -12,6 +12,7 @@ import AboutProducts from "./about_products/index";
 import AboutTeam from "./about_team/index";
 import AboutGalary from "./about_galary/index";
 import ContactForm from "./contact_form/index";
+import ReservationForm from "./reservation_form/index";
 
 export {
   Header,
@@ -28,4 +29,5 @@ export {
   AboutTeam,
   AboutGalary,
   ContactForm,
+  ReservationForm,
 };

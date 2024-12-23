@@ -1,3 +1,10 @@
+import { AboutGalary, ReservationForm } from "@/components";
+
 export default function Reservation() {
-  return <div>Reservation</div>;
+  return (
+    <main>
+      <ReservationForm />
+      <AboutGalary />
+    </main>
+  );
 }
