@@ -8,6 +8,7 @@ import HomeOpinion from "./home_opinion";
 import HomeBlog from "./home_blog";
 import HomeReservation from "./home_reservation";
 import AboutHero from "./about_hero/index";
+import AboutProducts from "./about_products/index";
 
 export {
   Header,
@@ -20,4 +21,5 @@ export {
   HomeBlog,
   HomeReservation,
   AboutHero,
+  AboutProducts,
 };
