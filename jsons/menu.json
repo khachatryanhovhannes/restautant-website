@@ -1,0 +1,212 @@
+[
+  {
+    "id": 1,
+    "image": "https://gimmedelicious.com/wp-content/uploads/2020/09/Air-Fryer-Cheeseburgers-sq-2.jpg",
+    "title": "Cheeseburger",
+    "price": 12.99,
+    "rating": 4.5,
+    "category": "Burgers",
+    "tag": "Popular, Comfort Food",
+    "description": "A delicious cheeseburger with a juicy beef patty, melted cheese, lettuce, and tomato, served on a fresh bun."
+  },
+  {
+    "id": 2,
+    "image": "https://avatars.mds.yandex.net/i?id=4e6a01e5ad622758636f7bc4718b019f241c9e36-5351088-images-thumbs&n=13",
+    "title": "Spaghetti Carbonara",
+    "price": 15.99,
+    "rating": 4.7,
+    "category": "Pasta",
+    "tag": "Italian, Classic",
+    "description": "A traditional Italian pasta dish with creamy carbonara sauce, pancetta, and Parmesan cheese."
+  },
+  {
+    "id": 3,
+    "image": "https://i.pinimg.com/originals/e3/e0/2c/e3e02cafa2aa4360d545f46348b42e7c.jpg",
+    "title": "Sushi Roll",
+    "price": 18.99,
+    "rating": 4.8,
+    "category": "Japanese",
+    "tag": "Sushi, Fresh",
+    "description": "A sushi roll with fresh fish, avocado, and cucumber, wrapped in seaweed and rice."
+  },
+  {
+    "id": 4,
+    "image": "https://i.pinimg.com/originals/e3/e0/2c/e3e02cafa2aa4360d545f46348b42e7c.jpg",
+    "title": "Margherita Pizza",
+    "price": 14.99,
+    "rating": 4.3,
+    "category": "Pizza",
+    "tag": "Classic, Vegetarian",
+    "description": "A classic Margherita pizza with fresh mozzarella, basil, and a tomato sauce base."
+  },
+  {
+    "id": 5,
+    "image": "https://cdn.shopify.com/s/files/1/2538/5286/products/ribeye-cocinado2_2000x.jpg?v=1556794077",
+    "title": "Grilled Ribeye Steak",
+    "price": 24.99,
+    "rating": 4.9,
+    "category": "Steak",
+    "tag": "Premium, Grilled",
+    "description": "A perfectly grilled ribeye steak, served with mashed potatoes and seasonal vegetables."
+  },
+  {
+    "id": 6,
+    "image": "https://cdn.shopify.com/s/files/1/2538/5286/products/ribeye-cocinado2_2000x.jpg?v=1556794077",
+    "title": "Caesar Salad",
+    "price": 9.99,
+    "rating": 4.2,
+    "category": "Salads",
+    "tag": "Healthy, Classic",
+    "description": "A refreshing Caesar salad with crisp romaine lettuce, crunchy croutons, and creamy Caesar dressing."
+  },
+  {
+    "id": 7,
+    "image": "",
+    "title": "Fish Tacos",
+    "price": 13.49,
+    "rating": 4.4,
+    "category": "Tacos",
+    "tag": "Seafood, Mexican",
+    "description": "Tasty fish tacos with a crispy coating, served with fresh salsa and a side of lime."
+  },
+  {
+    "id": 8,
+    "image": "https://img.sunset02.com/sites/default/files/styles/1000x1000/public/image/2016/09/main/fej0114t-hr8235c-55500.jpg",
+    "title": "Chicken Alfredo",
+    "price": 17.49,
+    "rating": 4.6,
+    "category": "Pasta",
+    "tag": "Creamy, Chicken",
+    "description": "A rich and creamy Alfredo sauce with grilled chicken, served over fettuccine pasta."
+  },
+  {
+    "id": 9,
+    "image": "https://avatars.mds.yandex.net/i?id=cefbb55bebce0b0722780580b0dce880-4950066-images-thumbs&n=13",
+    "title": "BBQ Ribs",
+    "price": 21.99,
+    "rating": 4.8,
+    "category": "Barbecue",
+    "tag": "Grilled, Tender",
+    "description": "Tender ribs slathered in smoky BBQ sauce, served with a side of coleslaw and fries."
+  },
+  {
+    "id": 10,
+    "image": "",
+    "title": "Vegan Burger",
+    "price": 11.99,
+    "rating": 4.3,
+    "category": "Burgers",
+    "tag": "Vegan, Plant-based",
+    "description": "A delicious plant-based patty with fresh veggies and vegan mayo, served in a toasted bun."
+  },
+  {
+    "id": 11,
+    "image": "https://images.squarespace-cdn.com/content/v1/5e90e46fd1119766887d1dc3/1611676540137-WUVINZWV1HE4SOM0N8QT/59690108_l.jpg",
+    "title": "Eggplant Parmesan",
+    "price": 14.49,
+    "rating": 4.5,
+    "category": "Italian",
+    "tag": "Vegetarian, Baked",
+    "description": "Crispy breaded eggplant slices topped with marinara sauce and melted mozzarella cheese."
+  },
+  {
+    "id": 12,
+    "image": "https://i.pinimg.com/originals/c7/53/0b/c7530bcfb088112603165fe7f6f27d36.jpg",
+    "title": "Shrimp Scampi",
+    "price": 19.99,
+    "rating": 4.7,
+    "category": "Pasta",
+    "tag": "Seafood, Garlic",
+    "description": "Shrimp sautéed in garlic butter sauce, served with linguine pasta."
+  },
+  {
+    "id": 13,
+    "image": "https://i.pinimg.com/originals/bb/0a/b4/bb0ab43fff717f86e86df6e516b66510.jpg",
+    "title": "Falafel Plate",
+    "price": 10.99,
+    "rating": 4.4,
+    "category": "Middle Eastern",
+    "tag": "Vegan, Protein-rich",
+    "description": "Crispy falafel served with hummus, tabbouleh, and pita bread."
+  },
+  {
+    "id": 14,
+    "image": "https://avatars.mds.yandex.net/i?id=c4d89b61fce1f9b071f447273d2ff95c16ac10c7-5233852-images-thumbs&n=13",
+    "title": "Chicken Tikka Masala",
+    "price": 16.49,
+    "rating": 4.6,
+    "category": "Indian",
+    "tag": "Spicy, Curry",
+    "description": "Tender chicken cooked in a flavorful tomato-based curry sauce, served with basmati rice."
+  },
+  {
+    "id": 15,
+    "image": "https://static.sayidaty.net/2022-07/127452.jpeg",
+    "title": "Lobster Roll",
+    "price": 23.99,
+    "rating": 4.8,
+    "category": "Seafood",
+    "tag": "Fresh, Luxury",
+    "description": "A fresh lobster salad with a buttery dressing, served in a toasted roll."
+  },
+  {
+    "id": 16,
+    "image": "https://static.insales-cdn.com/files/1/4246/16470166/original/%D0%A3%D1%82%D0%BA%D0%B0_%D0%BF%D0%BE-%D0%BF%D0%B5%D0%BA%D0%B8%D0%BD%D1%81%D0%BA%D0%B8.jpg",
+    "title": "Peking Duck",
+    "price": 28.99,
+    "rating": 4.9,
+    "category": "Chinese",
+    "tag": "Crispy, Traditional",
+    "description": "Crispy duck served with pancakes, hoisin sauce, and fresh cucumber."
+  },
+  {
+    "id": 17,
+    "image": "https://as2.ftcdn.net/jpg/00/73/96/61/1000_F_73966134_5eaTQSGX9qJoZFDMvCEmxDjk5BKxIJbD.jpg",
+    "title": "Beef Wellington",
+    "price": 35.99,
+    "rating": 4.7,
+    "category": "European",
+    "tag": "Luxury, Tender",
+    "description": "A tender beef fillet coated with mushroom duxelles and wrapped in puff pastry."
+  },
+  {
+    "id": 18,
+    "image": "https://i.pinimg.com/originals/54/a8/45/54a8454f1137966b0271ebd9e6912435.png",
+    "title": "Mushroom Risotto",
+    "price": 13.99,
+    "rating": 4.4,
+    "category": "Italian",
+    "tag": "Vegetarian, Creamy",
+    "description": "A creamy risotto made with wild mushrooms, Parmesan cheese, and a touch of white wine."
+  },
+  {
+    "id": 19,
+    "image": "https://uzbek-culinar.ru/wp-content/uploads/9/8/a/98a228bc2baddb7e5695caee307087b7.jpeg",
+    "title": "Chicken Wings",
+    "price": 9.99,
+    "rating": 4.5,
+    "category": "Appetizers",
+    "tag": "Spicy, Grilled",
+    "description": "Crispy chicken wings tossed in spicy buffalo sauce, served with a side of ranch."
+  },
+  {
+    "id": 20,
+    "image": "https://avatars.mds.yandex.net/i?id=b49e8a81daa28f4339069f1c3f62d4ce65f3ef12-5232005-images-thumbs&n=13",
+    "title": "Vegetable Stir Fry",
+    "price": 12.49,
+    "rating": 4.3,
+    "category": "Asian",
+    "tag": "Vegan, Stir Fry",
+    "description": "A colorful mix of sautéed vegetables in a savory soy sauce."
+  },
+  {
+    "id": 21,
+    "image": "https://www.bakemeawish.com/images/products/merch/1000wp/58_1000.webp",
+    "title": "Chocolate Lava Cake",
+    "price": 7.99,
+    "rating": 4.9,
+    "category": "Desserts",
+    "tag": "Chocolate, Sweet",
+    "description": "A rich chocolate cake with a molten center, served with vanilla ice cream."
+  }
+]
