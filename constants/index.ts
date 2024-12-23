@@ -16,3 +16,6 @@ export const NAV_BAR = [
     href: "/reservation",
   },
 ];
+
+export const RESTAURANT_NAME = "RestoNest";
+export const WEBSITE_URL = "";
