@@ -5,7 +5,7 @@ import { MdOutlineDeliveryDining } from "react-icons/md";
 export default function HomeServices() {
   return (
     <section className="bg-[#FFF7EA]">
-      <div className="flex justify-center gap-14 py-20 items-center" >
+      <div className="flex justify-center flex-col lg:flex-row gap-14 px-5 py-20 items-center">
         <div className="max-w-[400px]">
           <p>
             <span className="border-t border-b border-black text-[15px]">
@@ -18,17 +18,29 @@ export default function HomeServices() {
             content making it look like readable English.
           </p>
         </div>
-        <div className="flex text-white gap-10">
+        <div className="flex flex-col sm:flex-row text-white gap-10">
           <div className="text-center bg-gray-800 p-5 flex flex-col items-center">
-            <MdOutlineMenuBook fontSize={60} color="#f5bb64" />
+            <MdOutlineMenuBook
+              fontSize={60}
+              color="#f5bb64"
+              aria-label="Special Menus"
+            />
             <p>Special Menus</p>
           </div>
           <div className="text-center bg-gray-800 p-5 flex flex-col items-center">
-            <PiCalendar fontSize={60} color="#f5bb64" />
+            <PiCalendar
+              fontSize={60}
+              color="#f5bb64"
+              aria-label="Opened 24/7"
+            />
             <p>Opened 24/7</p>
           </div>
           <div className="text-center bg-gray-800 p-5 flex flex-col items-center">
-            <MdOutlineDeliveryDining  fontSize={60} color="#f5bb64" />
+            <MdOutlineDeliveryDining
+              fontSize={60}
+              color="#f5bb64"
+              aria-label="Home Delivery"
+            />
             <p>Home Delivery</p>
           </div>
         </div>

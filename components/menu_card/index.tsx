@@ -18,7 +18,12 @@ export default function MenuCard({ ...props }: IMenuCardProps) {
     <div className="flex flex-col bg-white shadow-lg rounded-lg overflow-hidden">
       {/* Image Section */}
       <div className="relative w-full h-64">
-        <Image src={image} alt={title} layout="fill" objectFit="cover" />
+        <Image
+          src={image}
+          alt={`Image of ${title}`}
+          layout="fill"
+          objectFit="cover"
+        />
       </div>
 
       {/* Card Content */}
@@ -32,12 +37,13 @@ export default function MenuCard({ ...props }: IMenuCardProps) {
         {/* Rating Section */}
         <div className="flex justify-between mt-4 items-center">
           <div className="flex gap-2 items-center">
-            <div className="flex">
+            <div className="flex" aria-label={`Rating: ${rating} out of 5`}>
               {[1, 2, 3, 4, 5].map((i) => (
                 <FaStar
                   key={i}
                   size={20}
                   color={rating >= i ? "#ff9900" : "gray"}
+                  aria-hidden="true" // icons don't need to be read by screen readers
                 />
               ))}
             </div>
@@ -45,7 +51,10 @@ export default function MenuCard({ ...props }: IMenuCardProps) {
           </div>
 
           {/* Order Button */}
-          <button className="bg-[#ff9900] py-2 px-8 rounded-md text-white font-semibold">
+          <button
+            className="bg-[#ff9900] py-2 px-8 rounded-md text-white font-semibold"
+            aria-label={`Order ${title}`}
+          >
             Order Now
           </button>
         </div>

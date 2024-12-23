@@ -20,23 +20,33 @@ export default function HomeOpinion() {
         {/* Testimonial 1 */}
         <div className="p-10 bg-gray-800 rounded-lg">
           <div className="flex items-center pb-5 gap-5 border-b border-gray-600">
-            <Image src={reviewer_1} alt="Reviewer" width={62} height={63} />
+            <Image
+              src={reviewer_1}
+              alt="Reviewer Daniyal Sppra from New York"
+              width={62}
+              height={63}
+            />
             <div>
               <h5 className="text-white">Daniyal Sppra</h5>
-              <p className="text-[#ff9900] text-sm">Newyork</p>
+              <p className="text-[#ff9900] text-sm">New York</p>
             </div>
           </div>
           <p className="text-white py-5">
             &quot;It is professional, considers everyone&apos;s time, can think
-            about the There are many variations of passages whole probls small
-            niche, friendly.
+            about the many variations of small problems, niche, friendly and
+            efficient service.&quot;
           </p>
         </div>
 
         {/* Testimonial 2 */}
         <div className="p-10 bg-gray-800 rounded-lg">
           <div className="flex items-center pb-5 gap-5 border-b border-gray-600">
-            <Image src={reviewer_2} alt="Reviewer" width={62} height={63} />
+            <Image
+              src={reviewer_2}
+              alt="Reviewer Natasha D from Salt Lake City"
+              width={62}
+              height={63}
+            />
             <div>
               <h5 className="text-white">Natasha D</h5>
               <p className="text-[#ff9900] text-sm">Salt Lake City</p>
@@ -44,15 +54,20 @@ export default function HomeOpinion() {
           </div>
           <p className="text-white py-5">
             &quot;It is professional, considers everyone&apos;s time, can think
-            about the There are many variations of passages whole probls small
-            niche, friendly.
+            about the many variations of small problems, niche, friendly and
+            efficient service.&quot;
           </p>
         </div>
 
         {/* Testimonial 3 */}
         <div className="p-10 bg-gray-800 rounded-lg">
           <div className="flex items-center pb-5 gap-5 border-b border-gray-600">
-            <Image src={reviewer_3} alt="Reviewer" width={62} height={63} />
+            <Image
+              src={reviewer_3}
+              alt="Reviewer Jack Sparrow from San Diego"
+              width={62}
+              height={63}
+            />
             <div>
               <h5 className="text-white">Jack Sparrow</h5>
               <p className="text-[#ff9900] text-sm">San Diego</p>
@@ -60,8 +75,8 @@ export default function HomeOpinion() {
           </div>
           <p className="text-white py-5">
             &quot;It is professional, considers everyone&apos;s time, can think
-            about the There are many variations of passages whole probls small
-            niche, friendly.
+            about the many variations of small problems, niche, friendly and
+            efficient service.&quot;
           </p>
         </div>
       </div>
