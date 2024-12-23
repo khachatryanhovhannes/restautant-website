@@ -11,6 +11,7 @@ import AboutHero from "./about_hero/index";
 import AboutProducts from "./about_products/index";
 import AboutTeam from "./about_team/index";
 import AboutGalary from "./about_galary/index";
+import ContactForm from "./contact_form/index";
 
 export {
   Header,
@@ -26,4 +27,5 @@ export {
   AboutProducts,
   AboutTeam,
   AboutGalary,
+  ContactForm,
 };
