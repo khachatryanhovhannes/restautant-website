@@ -14,12 +14,14 @@ export default function Header() {
     <header className="p-5 sm:p-7 md:px-20 bg-black">
       <div className="flex justify-between items-center">
         <div className="w-[100px]">
-          <Image
-            src={logo}
-            alt="RestoNest Logo - A restaurant specializing in high-quality food"
-            height={314.35}
-            width={327}
-          />
+          <Link href="/">
+            <Image
+              src={logo}
+              alt="RestoNest Logo - A restaurant specializing in high-quality food"
+              height={314.35}
+              width={327}
+            />
+          </Link>
         </div>
         {/* Desktop Navbar */}
         <nav className="hidden lg:flex gap-14 items-center font-bold">
@@ -34,13 +36,15 @@ export default function Header() {
             >
               {nav.label}
             </Link>
-          ))}
-          <button
-            className="bg-[#ff9900] py-2 px-14 rounded-2xl"
-            aria-label="Contact us"
-          >
-            Contact
-          </button>
+          ))}{" "}
+          <Link href="/contact">
+            <button
+              className="bg-[#ff9900] py-2 px-14 rounded-2xl"
+              aria-label="Contact us"
+            >
+              Contact
+            </button>
+          </Link>
         </nav>
         {/* Mobile Navbar */}
         <div className="lg:hidden flex items-center">
@@ -83,12 +87,14 @@ export default function Header() {
                 {nav.label}
               </Link>
             ))}
-            <button
-              className="bg-[#ff9900] py-2 px-14 rounded-2xl mt-4"
-              aria-label="Contact us"
-            >
-              Contact
-            </button>
+            <Link href="/contact">
+              <button
+                className="bg-[#ff9900] py-2 px-14 rounded-2xl mt-4"
+                aria-label="Contact us"
+              >
+                Contact
+              </button>
+            </Link>
           </nav>
         </div>
       )}
