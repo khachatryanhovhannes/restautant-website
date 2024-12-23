@@ -14,8 +14,8 @@ export default async function HomeMenu() {
         Popular Dishes
       </h2>
       <p className="max-w-[700px] mx-auto text-center mt-3 text-gray-600 text-sm sm:text-base">
-        Lorem Ipsum is that it has a more-or-less normal distribution of
-        letters, as opposed to using &apos;Content here, content making.
+        Discover our selection of popular dishes, carefully curated to satisfy
+        all tastes.
       </p>
 
       {/* Menu Card Section */}

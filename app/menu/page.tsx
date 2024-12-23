@@ -1,3 +1,9 @@
+import { MenuFull } from "@/components";
+
 export default function Menu() {
-  return <div>Menu</div>;
+  return (
+    <main>
+      <MenuFull />
+    </main>
+  );
 }
