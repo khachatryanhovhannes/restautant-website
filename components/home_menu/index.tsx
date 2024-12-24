@@ -1,5 +1,6 @@
 import { getPopular } from "@/services";
 import MenuCard from "../menu_card";
+import Link from "next/link";
 
 export default async function HomeMenu() {
   const popular = await getPopular(3);
@@ -27,9 +28,11 @@ export default async function HomeMenu() {
 
       {/* See All Dishes Button */}
       <div className="text-center mt-10">
+        <Link href="/menu">
         <button className="bg-[#ff9900] py-4 px-12 rounded-md font-semibold text-xl">
           See all dishes
         </button>
+        </Link>
       </div>
     </section>
   );

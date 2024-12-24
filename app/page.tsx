@@ -29,7 +29,7 @@ export default function Home() {
           property="og:description"
           content={`Discover the best dining experience with ${RESTAURANT_NAME}. Book your table today!`}
         />
-        <meta property="og:image" content="/images/hero.png" />
+        <meta property="og:image" content="/images/the_story.png" />
         <meta property="og:url" content={WEBSITE_URL} />
       </Head>
       <main className="">
