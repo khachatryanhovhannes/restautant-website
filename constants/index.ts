@@ -18,4 +18,4 @@ export const NAV_BAR = [
 ];
 
 export const RESTAURANT_NAME = "RestoNest";
-export const WEBSITE_URL = "";
+export const WEBSITE_URL = "https://restonest.netlify.app/";

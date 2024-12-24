@@ -27,7 +27,7 @@ export default function Contact() {
           property="og:description"
           content={`Contact ${RESTAURANT_NAME} for any inquiries, reservations, or feedback.`}
         />
-        <meta property="og:image" content="/images/contact-us.jpg" />
+        <meta property="og:image"content="/images/the_story.png" />
         <meta property="og:url" content={`${WEBSITE_URL}/contact`} />
       </Head>
       <main>
