@@ -3,6 +3,7 @@ import Image from "next/image";
 import { IoLocationOutline } from "react-icons/io5";
 import { GoChecklist } from "react-icons/go";
 import { LuClock10 } from "react-icons/lu";
+import Link from "next/link";
 
 function HomeWelcome() {
   return (
@@ -18,12 +19,14 @@ function HomeWelcome() {
             Simply dummy text of the printing and typesetting industry. Lorem
             Ipsum has been the industry&apos;s standard dummy.
           </p>
-          <button
-            className="text-white bg-black px-10 py-3 rounded-lg mt-8"
-            aria-label="View Menu"
-          >
-            View Menu
-          </button>
+          <Link href="/menu">
+            <button
+              className="text-white bg-black px-10 py-3 rounded-lg mt-8"
+              aria-label="View Menu"
+            >
+              View Menu
+            </button>
+          </Link>
         </div>
         <div className="mt-5 md:mt-0">
           <Image
