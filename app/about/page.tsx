@@ -32,7 +32,7 @@ export default function About() {
           property="og:description"
           content={`Discover our story, products, and the team behind ${RESTAURANT_NAME}.`}
         />
-        <meta property="og:image" content="/images/hero.png" />
+        <meta property="og:image" content="/images/the_story.png" />
         <meta property="og:url" content={`${WEBSITE_URL}/about`} />
       </Head>
       <main className="">

@@ -30,7 +30,7 @@ export default function Reservation() {
           property="og:description"
           content={`Book your table now at ${RESTAURANT_NAME} and enjoy a unique dining experience with friends and family.`}
         />
-        <meta property="og:image" content="/images/reservation-image.jpg" />
+        <meta property="og:image" content="/images/the_story.png" />
         <meta property="og:url" content={`${WEBSITE_URL}/reservation`} />
       </Head>
       <main>

@@ -27,7 +27,7 @@ export default function Menu() {
           property="og:description"
           content={`Discover the wide variety of dishes at ${RESTAURANT_NAME}, your go-to spot for delicious meals.`}
         />
-        <meta property="og:image" content="/images/menu-image.jpg" />
+        <meta property="og:image" content="/images/the_story.png" />
         <meta property="og:url" content={`${WEBSITE_URL}/menu`} />
       </Head>
       <main>
